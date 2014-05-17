@@ -1,9 +1,0 @@
-/*  はじめてのCプログラミング*/
-#include <stdio.h>
-
-int main()
-{
-    printf("hello World C Language\n");
-    return 0;
-}
-
