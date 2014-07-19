@@ -4,8 +4,8 @@ boolean mouseDragging;
 
 void setup() {
   size (500,500);
-   x = 250;
-   y = 250;
+   x = width /2;
+   y = height /2;
    r = 30;
 }
 
@@ -20,7 +20,7 @@ void draw(){
 }
 
 void mousePressed(){
-  if(x-mouseX <= r && y-mouseY <= r){
+  if(mouseX-x <= r && mouseY-y <= r){
     mouseDragging=true;
     px=x-mouseX;
     py=y-mouseY;
