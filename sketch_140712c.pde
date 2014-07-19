@@ -21,9 +21,11 @@ void draw(){
 
 void mousePressed(){
   if(mouseX-x <= r && mouseY-y <= r){
+    if(x-mouseX <=r && y-mouseY <= r){
     mouseDragging=true;
     px=x-mouseX;
     py=y-mouseY;
+    }
   }
 }
 
