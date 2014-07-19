@@ -1,6 +1,5 @@
 float x,y,r;
 float px,py;
-float dragedX,dragedY;
 boolean mouseDragging;
 
 void setup() {
